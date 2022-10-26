@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
                     <a class="nav-link {{ ($active === "home") ? 'active' : '' }}" href="/">Home</a>
                 </li>
@@ -19,10 +19,7 @@
                     <a class="nav-link {{ ($active === "categories") ? 'active' : '' }}" href="/categories">Categories</a>
                 </li>
             </ul>
-            <form class="d-flex bg-transparent" role="search">
-                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-light text-dark font-weight-bold" type="submit">Search</button>
-            </form>
+
         </div>
     </div>
 </nav>
