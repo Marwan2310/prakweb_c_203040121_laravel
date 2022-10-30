@@ -6,6 +6,7 @@
 </div>
 
 <div class="table-responsive col-lg-10">
+  <a href="/dashboard/posts/create" class="btn btn-info mb-3"> Create new Post</a>
   <table class="table table-striped table-sm">
     <thead>
       <tr>
